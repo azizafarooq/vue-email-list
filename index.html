@@ -10,9 +10,8 @@
     <title>API</title>
 </head>
 <body>
-    <ul>
-        <li> </li>
-    </ul>
-    
+    <div id="app">
+        <li v-for="(email, index) in emails" :class="index">{{ email }}</li>
+    </div>
 </body>
 </html>
